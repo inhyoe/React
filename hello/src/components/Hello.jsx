@@ -1,7 +1,7 @@
 import React from "react";
 
-function Hello(){
-    return <div>Hello React!</div>;
+function Hello(props){
+    return <div>Hello {props.name}</div>;
 }
 
 export default Hello;
